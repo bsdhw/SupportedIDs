@@ -242,6 +242,7 @@ This table is compiled from the [list of supported devices in NetBSD](https://gi
 | [04e8:6863](https://bsd-hardware.info?id=usb:04e8-6863) | Samsung Electronics  | Galaxy series, misc. (tethering mode)         |
 | [04e8:6881](https://bsd-hardware.info?id=usb:04e8-6881) | Samsung Electronics  | Samsung Android USB Remote NDIS Network De... |
 | [04f1:3008](https://bsd-hardware.info?id=usb:04f1-3008) | Victor Company of... | MP-PRX1 Ethernet                              |
+| [04f2:0939](https://bsd-hardware.info?id=usb:04f2-0939) | Chicony Electronics  | Amazon Basics mouse                           |
 | [04f2:aff7](https://bsd-hardware.info?id=usb:04f2-aff7) | Chicony Electronics  | Realtek RTL8188CUS Wireless LAN 802.11n US... |
 | [04f2:aff8](https://bsd-hardware.info?id=usb:04f2-aff8) | Chicony Electronics  | Realtek RTL8188CUS Wireless LAN 802.11n US... |
 | [04f2:aff9](https://bsd-hardware.info?id=usb:04f2-aff9) | Chicony Electronics  | Realtek RTL8188CUS Wireless LAN 802.11n US... |
@@ -272,6 +273,7 @@ This table is compiled from the [list of supported devices in NetBSD](https://gi
 | [050d:7050](https://bsd-hardware.info?id=usb:050d-7050) | Belkin Components    | F5D7050 Wireless G Adapter v1000/v2000 [In... |
 | [050d:705a](https://bsd-hardware.info?id=usb:050d-705a) | Belkin Components    | F5D7050 Wireless G Adapter v3000 [Ralink R... |
 | [050d:705c](https://bsd-hardware.info?id=usb:050d-705c) | Belkin Components    | F5D7050 Wireless G Adapter v4000 [Zydas ZD... |
+| [050d:705e](https://bsd-hardware.info?id=usb:050d-705e) | Belkin Components    | F5D7050 Wireless G Adapter v5000 [Realtek ... |
 | [050d:8053](https://bsd-hardware.info?id=usb:050d-8053) | Belkin Components    | F5D8053 N Wireless USB Adapter v1000/v4000... |
 | [050d:805c](https://bsd-hardware.info?id=usb:050d-805c) | Belkin Components    | F5D8053 N Wireless Adapter v3000 [Ralink R... |
 | [050d:815c](https://bsd-hardware.info?id=usb:050d-815c) | Belkin Components    | F5D8053 N Wireless USB Adapter v3000 [Rali... |
@@ -407,6 +409,7 @@ This table is compiled from the [list of supported devices in NetBSD](https://gi
 | [05e9:0009](https://bsd-hardware.info?id=usb:05e9-0009) | Kawasaki LSI         | Sony 10Mbps Ethernet [pegasus]                |
 | [0609:031d](https://bsd-hardware.info?id=usb:0609-031d) | SMK Manufacturing    | eHome Infrared Receiver                       |
 | [0638:0268](https://bsd-hardware.info?id=usb:0638-0268) | Avision              | iVina 1200U Scanner                           |
+| [0665:5161](https://bsd-hardware.info?id=usb:0665-5161) | Cypress Semicondu... | USB to Serial                                 |
 | [066b:200c](https://bsd-hardware.info?id=usb:066b-200c) | Linksys              | USB10TX                                       |
 | [066b:2202](https://bsd-hardware.info?id=usb:066b-2202) | Linksys              | USB10TX Ethernet [pegasus]                    |
 | [066b:2203](https://bsd-hardware.info?id=usb:066b-2203) | Linksys              | USB100TX Ethernet [pegasus]                   |
@@ -422,7 +425,7 @@ This table is compiled from the [list of supported devices in NetBSD](https://gi
 | [0676:0002](https://bsd-hardware.info?id=usb:0676-0002) | Teles                | TELES.S0/2AB/USB-Box                          |
 | [067b:0001](https://bsd-hardware.info?id=usb:067b-0001) | Prolific Technology  | PL2302 USB-USB Bridge                         |
 | [067b:04bb](https://bsd-hardware.info?id=usb:067b-04bb) | Prolific Technology  | PL2303 Serial (IODATA USB-RSAQ2)              |
-| [067b:2303](https://bsd-hardware.info?id=usb:067b-2303) | Prolific Technology  | PL2303 Serial Port                            |
+| [067b:2303](https://bsd-hardware.info?id=usb:067b-2303) | Prolific Technology  | PL2303 Serial Port / Mobile Action MA-8910P   |
 | [067b:2501](https://bsd-hardware.info?id=usb:067b-2501) | Prolific Technology  | PL2501 USB-USB Bridge (USB 2.0)               |
 | [067b:25a1](https://bsd-hardware.info?id=usb:067b-25a1) | Prolific Technology  | PL25A1 Host-Host Bridge                       |
 | [067b:aaa0](https://bsd-hardware.info?id=usb:067b-aaa0) | Prolific Technology  | Prolific Pharos                               |
@@ -866,7 +869,7 @@ This table is compiled from the [list of supported devices in NetBSD](https://gi
 | [1004:618f](https://bsd-hardware.info?id=usb:1004-618f) | LG Electronics       | Ally/Optimus One                              |
 | [100d:9031](https://bsd-hardware.info?id=usb:100d-9031) | Netopia              | Motorola 802.11n Dualband USB Wireless Ada... |
 | [100d:9032](https://bsd-hardware.info?id=usb:100d-9032) | Netopia              | Motorola 802.11n 5G USB Wireless Adapter      |
-| [103c:1629](https://bsd-hardware.info?id=usb:103c-1629) |                      | Realtek RTL8188CU Wireless LAN 802.11n USB... |
+| [103c:1629](https://bsd-hardware.info?id=usb:103c-1629) | Maker 103C           | Realtek RTL8188CU Wireless LAN 802.11n USB... |
 | [1044:8003](https://bsd-hardware.info?id=usb:1044-8003) | Chu Yuen Enterprise  | GN-WLBM101                                    |
 | [1044:8007](https://bsd-hardware.info?id=usb:1044-8007) | Chu Yuen Enterprise  | GN-WBKG                                       |
 | [1044:8008](https://bsd-hardware.info?id=usb:1044-8008) | Chu Yuen Enterprise  | GN-WB01GS                                     |
@@ -1041,6 +1044,15 @@ This table is compiled from the [list of supported devices in NetBSD](https://gi
 | [157e:3013](https://bsd-hardware.info?id=usb:157e-3013) | TRENDnet             | TEW-645UB 802.11bgn 1x2:2 Wireless Adapter... |
 | [157e:3204](https://bsd-hardware.info?id=usb:157e-3204) | TRENDnet             | Allnet ALL0298 v2 802.11bg                    |
 | [1582:6003](https://bsd-hardware.info?id=usb:1582-6003) | Fiberline            | WL-430U 802.11bg                              |
+| [15a2:0041](https://bsd-hardware.info?id=usb:15a2-0041) | Freescale Semicon... | i.MX51 SystemOnChip in RecoveryMode           |
+| [15a2:004e](https://bsd-hardware.info?id=usb:15a2-004e) | Freescale Semicon... | i.MX53 SystemOnChip in RecoveryMode           |
+| [15a2:004f](https://bsd-hardware.info?id=usb:15a2-004f) | Freescale Semicon... | i.MX28 SystemOnChip in RecoveryMode           |
+| [15a2:0052](https://bsd-hardware.info?id=usb:15a2-0052) | Freescale Semicon... | i.MX50 SystemOnChip in RecoveryMode           |
+| [15a2:0054](https://bsd-hardware.info?id=usb:15a2-0054) | Freescale Semicon... | i.MX 6Dual/6Quad SystemOnChip in RecoveryMode |
+| [15a2:0061](https://bsd-hardware.info?id=usb:15a2-0061) | Freescale Semicon... | i.MX 6Solo/6DualLite SystemOnChip in Recov... |
+| [15a2:006a](https://bsd-hardware.info?id=usb:15a2-006a) | Freescale Semicon... | Vybrid series SystemOnChip in RecoveryMode    |
+| [15a2:0076](https://bsd-hardware.info?id=usb:15a2-0076) | Freescale Semicon... | i.MX 7Solo/7Dual SystemOnChip in RecoveryMode |
+| [15a2:0080](https://bsd-hardware.info?id=usb:15a2-0080) | Freescale Semicon... | i.MX 6ULL SystemOnChip in RecoveryMode        |
 | [15a9:0004](https://bsd-hardware.info?id=usb:15a9-0004) | Gemtek               | WUBR-177G [Ralink RT2571W]                    |
 | [15a9:0006](https://bsd-hardware.info?id=usb:15a9-0006) | Gemtek               | Wireless 11n USB Adapter                      |
 | [15a9:0010](https://bsd-hardware.info?id=usb:15a9-0010) | Gemtek               | 802.11n USB Wireless Card                     |
@@ -1220,10 +1232,13 @@ This table is compiled from the [list of supported devices in NetBSD](https://gi
 | [22b8:6027](https://bsd-hardware.info?id=usb:22b8-6027) | Motorola PCS         | USBLAN                                        |
 | [2304:0227](https://bsd-hardware.info?id=usb:2304-0227) | Pinnacle Systems     | PCTV for Mac, HD Stick                        |
 | [2357:0100](https://bsd-hardware.info?id=usb:2357-0100) | TP-Link              | TL-WN8200ND [Realtek RTL8192CU]               |
+| [2357:0107](https://bsd-hardware.info?id=usb:2357-0107) | TP-Link              | TL-WN821N v5/v6 [RTL8192EU]                   |
+| [2357:0108](https://bsd-hardware.info?id=usb:2357-0108) | TP-Link              | TL-WN822N Version 4 RTL8192EU                 |
 | [2357:0109](https://bsd-hardware.info?id=usb:2357-0109) | TP-Link              | TL-WN823N v2/v3 [Realtek RTL8192EU]           |
 | [2357:010c](https://bsd-hardware.info?id=usb:2357-010c) | TP-Link              | TL-WN722N v2/v3 [Realtek RTL8188EUS]          |
 | [2405:0003](https://bsd-hardware.info?id=usb:2405-0003) | Custom Computer S... | West Mountain Radio RIGblaster Advantage      |
 | [2478:2008](https://bsd-hardware.info?id=usb:2478-2008) | Tripp-Lite           | U209-000-R Serial Port                        |
+| [3310:0100](https://bsd-hardware.info?id=usb:3310-0100) | MUDITA Sp. z o.o.    | Pure                                          |
 | [3334:1701](https://bsd-hardware.info?id=usb:3334-1701) | AEI                  | Fast Ethernet                                 |
 | [3344:1122](https://bsd-hardware.info?id=usb:3344-1122) | Leaguer Microelec... | LME_PCTV_DVBS_LG                              |
 | [40bb:0a09](https://bsd-hardware.info?id=usb:40bb-0a09) | I-O Data             | USB2.0-SCSI Bridge USB2-SC                    |

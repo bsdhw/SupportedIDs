@@ -237,6 +237,10 @@ This table is compiled from the [list of supported devices in OpenBSD](https://g
 | [045e:00e1](https://bsd-hardware.info?id=usb:045e-00e1) | Microsoft            | Wireless Laser Mouse 6000 Receiver            |
 | [045e:028e](https://bsd-hardware.info?id=usb:045e-028e) | Microsoft            | Xbox360 Controller                            |
 | [045e:074a](https://bsd-hardware.info?id=usb:045e-074a) | Microsoft            | LifeCam VX-500 [1357]                         |
+| [045e:07ab](https://bsd-hardware.info?id=usb:045e-07ab) | Microsoft            | Wacom Device                                  |
+| [045e:07c6](https://bsd-hardware.info?id=usb:045e-07c6) | Microsoft            | RTL8153 GigE [Surface Ethernet Adapter]       |
+| [045e:0927](https://bsd-hardware.info?id=usb:045e-0927) | Microsoft            | RTL8153B GigE [Surface Ethernet Adapter]      |
+| [045e:09c0](https://bsd-hardware.info?id=usb:045e-09c0) | Microsoft            | Surface Type Cover                            |
 | [0461:0300](https://bsd-hardware.info?id=usb:0461-0300) | Primax Electronics   | G2-300 Scanner                                |
 | [0461:0301](https://bsd-hardware.info?id=usb:0461-0301) | Primax Electronics   | G2E-300 Scanner                               |
 | [0461:0302](https://bsd-hardware.info?id=usb:0461-0302) | Primax Electronics   | G2-300 #2 Scanner                             |
@@ -275,6 +279,7 @@ This table is compiled from the [list of supported devices in OpenBSD](https://g
 | [0471:200f](https://bsd-hardware.info?id=usb:0471-200f) | Philips (or NXP)     | 802.11n Wireless Adapter                      |
 | [0474:0701](https://bsd-hardware.info?id=usb:0474-0701) | Sanyo Electric       | SCP-4900 Cellphone                            |
 | [047c:ffff](https://bsd-hardware.info?id=usb:047c-ffff) | Dell                 | UPS Tower 500W LV                             |
+| [047d:2041](https://bsd-hardware.info?id=usb:047d-2041) | Kensington           | SlimBlade Trackball                           |
 | [047f:0ca1](https://bsd-hardware.info?id=usb:047f-0ca1) | Plantronics          | USB DSP v4 Audio Interface                    |
 | [0482:0203](https://bsd-hardware.info?id=usb:0482-0203) | Kyocera              | AH-K3001V                                     |
 | [0489:e000](https://bsd-hardware.info?id=usb:0489-e000) | Foxconn / Hon Hai    | T-Com TC 300                                  |
@@ -371,6 +376,7 @@ This table is compiled from the [list of supported devices in OpenBSD](https://g
 | [04f2:affa](https://bsd-hardware.info?id=usb:04f2-affa) | Chicony Electronics  | Realtek RTL8188CUS Wireless LAN 802.11n US... |
 | [04f2:affb](https://bsd-hardware.info?id=usb:04f2-affb) | Chicony Electronics  | Realtek RTL8188CUS Wireless LAN 802.11n US... |
 | [04f2:affc](https://bsd-hardware.info?id=usb:04f2-affc) | Chicony Electronics  | Realtek RTL8188CUS Wireless LAN 802.11n US... |
+| [04f2:b615](https://bsd-hardware.info?id=usb:04f2-b615) | Chicony Electronics  | Integrated IR Camera                          |
 | [04fa:2490](https://bsd-hardware.info?id=usb:04fa-2490) | Dallas Semiconductor | DS1490F 2-in-1 Fob, 1-Wire adapter            |
 | [04fa:4201](https://bsd-hardware.info?id=usb:04fa-4201) | Dallas Semiconductor | DS4201 Audio DAC                              |
 | [0500:0002](https://bsd-hardware.info?id=usb:0500-0002) | Siam United Hi-Tech  | DART-2 Keyboard                               |
@@ -502,6 +508,7 @@ This table is compiled from the [list of supported devices in OpenBSD](https://g
 | [05ab:5701](https://bsd-hardware.info?id=usb:05ab-5701) | In-System Design     | USB Storage Adapter V2                        |
 | [05ac:020f](https://bsd-hardware.info?id=usb:05ac-020f) | Apple                | Internal Keyboard/Trackpad (ISO)              |
 | [05ac:0215](https://bsd-hardware.info?id=usb:05ac-0215) | Apple                | Internal Keyboard/Trackpad (ISO)              |
+| [05ac:0218](https://bsd-hardware.info?id=usb:05ac-0218) | Apple                | Internal Keyboard/Trackpad (ISO)              |
 | [05ac:0223](https://bsd-hardware.info?id=usb:05ac-0223) | Apple                | Internal Keyboard/Trackpad (ANSI)             |
 | [05ac:0224](https://bsd-hardware.info?id=usb:05ac-0224) | Apple                | Internal Keyboard/Trackpad (ISO)              |
 | [05ac:0225](https://bsd-hardware.info?id=usb:05ac-0225) | Apple                | Internal Keyboard/Trackpad (JIS)              |
@@ -607,7 +614,7 @@ This table is compiled from the [list of supported devices in OpenBSD](https://g
 | [0676:0002](https://bsd-hardware.info?id=usb:0676-0002) | Teles                | TELES.S0/2AB/USB-Box                          |
 | [067b:0001](https://bsd-hardware.info?id=usb:067b-0001) | Prolific Technology  | PL2302 USB-USB Bridge                         |
 | [067b:04bb](https://bsd-hardware.info?id=usb:067b-04bb) | Prolific Technology  | PL2303 Serial (IODATA USB-RSAQ2)              |
-| [067b:2303](https://bsd-hardware.info?id=usb:067b-2303) | Prolific Technology  | PL2303 Serial Port                            |
+| [067b:2303](https://bsd-hardware.info?id=usb:067b-2303) | Prolific Technology  | PL2303 Serial Port / Mobile Action MA-8910P   |
 | [067b:2501](https://bsd-hardware.info?id=usb:067b-2501) | Prolific Technology  | PL2501 USB-USB Bridge (USB 2.0)               |
 | [067b:aaa0](https://bsd-hardware.info?id=usb:067b-aaa0) | Prolific Technology  | Prolific Pharos                               |
 | [067b:aaa2](https://bsd-hardware.info?id=usb:067b-aaa2) | Prolific Technology  | PL2303 Serial Adapter (IODATA USB-RSAQ3)      |
@@ -902,6 +909,7 @@ This table is compiled from the [list of supported devices in OpenBSD](https://g
 | [0b05:17ad](https://bsd-hardware.info?id=usb:0b05-17ad) | ASUSTek Computer     | ASUS USB-N66 Dual Band N Network Adapter      |
 | [0b05:17ba](https://bsd-hardware.info?id=usb:0b05-17ba) | ASUSTek Computer     | N10 Nano 802.11n Network Adapter [Realtek ... |
 | [0b05:17c0](https://bsd-hardware.info?id=usb:0b05-17c0) | ASUSTek Computer     | ASUS USB-N10E 150Mbps Wireless-N Adapter      |
+| [0b05:18f0](https://bsd-hardware.info?id=usb:0b05-18f0) | ASUSTek Computer     | Realtek 8188EUS [USB-N10 Nano]                |
 | [0b05:4202](https://bsd-hardware.info?id=usb:0b05-4202) | ASUSTek Computer     | ASUS USB Sync                                 |
 | [0b39:0109](https://bsd-hardware.info?id=usb:0b39-0109) | Omnidirectional C... | USB TO Ethernet                               |
 | [0b39:0421](https://bsd-hardware.info?id=usb:0b39-0421) | Omnidirectional C... | Serial                                        |
@@ -938,6 +946,7 @@ This table is compiled from the [list of supported devices in OpenBSD](https://g
 | [0bda:0179](https://bsd-hardware.info?id=usb:0bda-0179) | Realtek Semicondu... | RTL8188ETV Wireless LAN 802.11n Network Ad... |
 | [0bda:018a](https://bsd-hardware.info?id=usb:0bda-018a) | Realtek Semicondu... | Realtek RTL8188CTV Wireless LAN 802.11n US... |
 | [0bda:317f](https://bsd-hardware.info?id=usb:0bda-317f) | Realtek Semicondu... | Realtek RTL8188RU Wireless LAN 802.11n USB... |
+| [0bda:8050](https://bsd-hardware.info?id=usb:0bda-8050) | Realtek Semicondu... | Realtek USB FE Family Controller              |
 | [0bda:8150](https://bsd-hardware.info?id=usb:0bda-8150) | Realtek Semicondu... | RTL8150 Fast Ethernet Adapter                 |
 | [0bda:8151](https://bsd-hardware.info?id=usb:0bda-8151) | Realtek Semicondu... | RTL8151 Adapteon Business Mobile Networks BV  |
 | [0bda:8152](https://bsd-hardware.info?id=usb:0bda-8152) | Realtek Semicondu... | RTL8152 Fast Ethernet Adapter                 |
@@ -1171,7 +1180,7 @@ This table is compiled from the [list of supported devices in OpenBSD](https://g
 | [1004:6000](https://bsd-hardware.info?id=usb:1004-6000) | LG Electronics       | Various Mobile Phones                         |
 | [100d:9031](https://bsd-hardware.info?id=usb:100d-9031) | Netopia              | Motorola 802.11n Dualband USB Wireless Ada... |
 | [100d:9032](https://bsd-hardware.info?id=usb:100d-9032) | Netopia              | Motorola 802.11n 5G USB Wireless Adapter      |
-| [103c:1629](https://bsd-hardware.info?id=usb:103c-1629) |                      | Realtek RTL8188CU Wireless LAN 802.11n USB... |
+| [103c:1629](https://bsd-hardware.info?id=usb:103c-1629) | Maker 103C           | Realtek RTL8188CU Wireless LAN 802.11n USB... |
 | [103e:03e8](https://bsd-hardware.info?id=usb:103e-03e8) | TTi                  | USB TTi PSU Serial Interface                  |
 | [1044:8002](https://bsd-hardware.info?id=usb:1044-8002) | Chu Yuen Enterprise  | GN-BR402W                                     |
 | [1044:8003](https://bsd-hardware.info?id=usb:1044-8003) | Chu Yuen Enterprise  | GN-WLBM101                                    |
@@ -1288,6 +1297,7 @@ This table is compiled from the [list of supported devices in OpenBSD](https://g
 | [12d1:1520](https://bsd-hardware.info?id=usb:12d1-1520) | Huawei Technologies  | K3765 HSPA                                    |
 | [12d1:1526](https://bsd-hardware.info?id=usb:12d1-1526) | Huawei Technologies  | Vodafone Mobile Broadband-USB Device (Huawei) |
 | [12d1:1573](https://bsd-hardware.info?id=usb:12d1-1573) | Huawei Technologies  | ME909u-521 mPCIe LTE/GPS card                 |
+| [12d1:15c1](https://bsd-hardware.info?id=usb:12d1-15c1) | Huawei Technologies  | ME906s LTE M.2 Module                         |
 | [12d1:1c05](https://bsd-hardware.info?id=usb:12d1-1c05) | Huawei Technologies  | Broadband stick (modem on)                    |
 | [12d1:1c0b](https://bsd-hardware.info?id=usb:12d1-1c0b) | Huawei Technologies  | E173s 3G broadband stick (modem off)          |
 | [12d1:1f01](https://bsd-hardware.info?id=usb:12d1-1f01) | Huawei Technologies  | E353/E3131 (Mass storage mode)                |
@@ -1319,6 +1329,7 @@ This table is compiled from the [list of supported devices in OpenBSD](https://g
 | [13b1:0028](https://bsd-hardware.info?id=usb:13b1-0028) | Linksys              | WUSB200 802.11g Adapter [Ralink RT2671]       |
 | [13b1:002f](https://bsd-hardware.info?id=usb:13b1-002f) | Linksys              | AE1000 v1 802.11n [Ralink RT3572]             |
 | [13b1:0031](https://bsd-hardware.info?id=usb:13b1-0031) | Linksys              | AM10 v1 802.11n [Ralink RT3072]               |
+| [13b1:0041](https://bsd-hardware.info?id=usb:13b1-0041) | Linksys              | Gigabit Ethernet Adapter                      |
 | [13d2:0400](https://bsd-hardware.info?id=usb:13d2-0400) | Shark Multimedia     | Pocket Ethernet [klsi]                        |
 | [13d3:3247](https://bsd-hardware.info?id=usb:13d3-3247) | IMC Networks         | AW-NU222 802.11bgn Wireless Module [Ralink... |
 | [13d3:3262](https://bsd-hardware.info?id=usb:13d3-3262) | IMC Networks         | 802.11 n/g/b Wireless LAN USB Adapter         |
@@ -1525,8 +1536,11 @@ This table is compiled from the [list of supported devices in OpenBSD](https://g
 | [17e9:03e0](https://bsd-hardware.info?id=usb:17e9-03e0) | DisplayLink          | DisplayLink Display Adapter (03E0)            |
 | [17e9:401a](https://bsd-hardware.info?id=usb:17e9-401a) | DisplayLink          | DisplayLink Display Adapter (401A)            |
 | [17ef:304b](https://bsd-hardware.info?id=usb:17ef-304b) | Lenovo               | AX88179 Gigabit Ethernet [ThinkPad OneLink... |
+| [17ef:304f](https://bsd-hardware.info?id=usb:17ef-304f) | Lenovo               | RTL8153 Gigabit Ethernet [ThinkPad OneLink... |
 | [17ef:3062](https://bsd-hardware.info?id=usb:17ef-3062) | Lenovo               | ThinkPad Dock Ethernet [Realtek RTL8153B]     |
+| [17ef:3069](https://bsd-hardware.info?id=usb:17ef-3069) | Lenovo               | ThinkPad TBT3 LAN                             |
 | [17ef:7203](https://bsd-hardware.info?id=usb:17ef-7203) | Lenovo               | Ethernet adapter [U2L 100P-Y1]                |
+| [17ef:7205](https://bsd-hardware.info?id=usb:17ef-7205) | Lenovo               | Thinkpad LAN                                  |
 | [17f4:aaaa](https://bsd-hardware.info?id=usb:17f4-aaaa) | WaveSense            | Jazz Blood Glucose Meter                      |
 | [18c5:0002](https://bsd-hardware.info?id=usb:18c5-0002) | AMIT Technology      | CG-WLUSB2GO                                   |
 | [18c5:0008](https://bsd-hardware.info?id=usb:18c5-0008) | AMIT Technology      | CG-WLUSB2GNR Corega Wireless USB Adapter      |
@@ -1654,11 +1668,13 @@ This table is compiled from the [list of supported devices in OpenBSD](https://g
 | [2357:0108](https://bsd-hardware.info?id=usb:2357-0108) | TP-Link              | TL-WN822N Version 4 RTL8192EU                 |
 | [2357:0109](https://bsd-hardware.info?id=usb:2357-0109) | TP-Link              | TL-WN823N v2/v3 [Realtek RTL8192EU]           |
 | [2357:010c](https://bsd-hardware.info?id=usb:2357-010c) | TP-Link              | TL-WN722N v2/v3 [Realtek RTL8188EUS]          |
+| [2357:0601](https://bsd-hardware.info?id=usb:2357-0601) | TP-Link              | UE300 10/100/1000 LAN (ethernet mode) [Rea... |
 | [2405:0003](https://bsd-hardware.info?id=usb:2405-0003) | Custom Computer S... | West Mountain Radio RIGblaster Advantage      |
 | [2464:0020](https://bsd-hardware.info?id=usb:2464-0020) | Nest                 | Heat Link                                     |
 | [2478:2008](https://bsd-hardware.info?id=usb:2478-2008) | Tripp-Lite           | U209-000-R Serial Port                        |
 | [2520:0001](https://bsd-hardware.info?id=usb:2520-0001) | ANA-U                | EasyPrinter S3                                |
 | [2626:ea60](https://bsd-hardware.info?id=usb:2626-ea60) | Aruba Networks       | UART Bridge Controller [cp210x]               |
+| [2717:0011](https://bsd-hardware.info?id=usb:2717-0011) | Xiaomi               | 100Mbps Network Card Adapter                  |
 | [2821:3300](https://bsd-hardware.info?id=usb:2821-3300) | ASUSTek Computer     | WL-140 / Hawking HWU36D 802.11b Wireless A... |
 | [2c02:14ea](https://bsd-hardware.info?id=usb:2c02-14ea) | Planex Communicat... | GW-US11H WLAN                                 |
 | [3195:f190](https://bsd-hardware.info?id=usb:3195-f190) | Link Instruments     | MSO-19                                        |

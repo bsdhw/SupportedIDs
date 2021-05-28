@@ -10,7 +10,7 @@ Lists of PCI/USB device IDs supported by BSD:
 * [NetBSD - PCI](/NetBSD/pci.ids.md)
 * [NetBSD - USB](/NetBSD/usb.ids.md)
 
-The data is compiled from the [list of supported devices in Linux](https://github.com/bsdhw/Drivers) and [pci.ids](http://pciids.sourceforge.net/v2.2/pci.ids) / [usb.ids](http://www.linux-usb.org/usb.ids).
+The data is compiled from the [list of supported devices](https://github.com/bsdhw/Drivers) and [pci.ids](http://pciids.sourceforge.net/v2.2/pci.ids) / [usb.ids](http://www.linux-usb.org/usb.ids).
 
 The repository is needed to easily find support status for devices in BSD by their name.
 

@@ -639,10 +639,13 @@ This table is compiled from the [list of supported devices in FreeBSD](https://g
 | [050d:0109](https://bsd-hardware.info?id=usb:050d-0109) | Belkin Components    | F5U109/F5U409 PDA Adapter                     |
 | [050d:0115](https://bsd-hardware.info?id=usb:050d-0115) | Belkin Components    | SCSI Adapter                                  |
 | [050d:0121](https://bsd-hardware.info?id=usb:050d-0121) | Belkin Components    | F5D5050 100Mbps Ethernet                      |
+| [050d:0128](https://bsd-hardware.info?id=usb:050d-0128) | Belkin Components    | Belkin USB 3.0 3-Port Hub with Gigabit Eth... |
 | [050d:0257](https://bsd-hardware.info?id=usb:050d-0257) | Belkin Components    | F5U257 Serial                                 |
 | [050d:0409](https://bsd-hardware.info?id=usb:050d-0409) | Belkin Components    | F5U409 Serial                                 |
 | [050d:0551](https://bsd-hardware.info?id=usb:050d-0551) | Belkin Components    | F6C550-AVR UPS                                |
+| [050d:065a](https://bsd-hardware.info?id=usb:050d-065a) | Belkin Components    | F8T065BF Mini Bluetooth 4.0 Adapter           |
 | [050d:0980](https://bsd-hardware.info?id=usb:050d-0980) | Belkin Components    | HID UPS Battery                               |
+| [050d:1004](https://bsd-hardware.info?id=usb:050d-1004) | Belkin Components    | F9L1004 802.11n Surf N300 XR Wireless Adap... |
 | [050d:1102](https://bsd-hardware.info?id=usb:050d-1102) | Belkin Components    | F7D1102 N150/Surf Micro Wireless Adapter v... |
 | [050d:1103](https://bsd-hardware.info?id=usb:050d-1103) | Belkin Components    | F9L1103 N750 DB 802.11abgn 2x3:3 [Ralink R... |
 | [050d:1203](https://bsd-hardware.info?id=usb:050d-1203) | Belkin Components    | F5U120-PC Serial Port                         |
@@ -671,7 +674,7 @@ This table is compiled from the [list of supported devices in FreeBSD](https://g
 | [0525:a140](https://bsd-hardware.info?id=usb:0525-a140) | Netchip Technology   | USB Clik! 40                                  |
 | [0525:a4a0](https://bsd-hardware.info?id=usb:0525-a4a0) | Netchip Technology   | Linux-USB "Gadget Zero"                       |
 | [0525:a4a2](https://bsd-hardware.info?id=usb:0525-a4a2) | Netchip Technology   | Linux-USB Ethernet/RNDIS Gadget               |
-| [0525:a4a5](https://bsd-hardware.info?id=usb:0525-a4a5) | Netchip Technology   | Pocketbook Pro 903 / Mobius 2 Action Cam /... |
+| [0525:a4a5](https://bsd-hardware.info?id=usb:0525-a4a5) | Netchip Technology   | Linux-USB File-backed Storage Gadget          |
 | [0536:01a0](https://bsd-hardware.info?id=usb:0536-01a0) | Hand Held Product... | PDT                                           |
 | [0543:0ed9](https://bsd-hardware.info?id=usb:0543-0ed9) | ViewSonic            | Color Pocket PC V35                           |
 | [0543:1527](https://bsd-hardware.info?id=usb:0543-1527) | ViewSonic            | Color Pocket PC V36                           |
@@ -907,7 +910,7 @@ This table is compiled from the [list of supported devices in FreeBSD](https://g
 | [067b:0307](https://bsd-hardware.info?id=usb:067b-0307) | Prolific Technology  | Motorola Serial Adapter                       |
 | [067b:04bb](https://bsd-hardware.info?id=usb:067b-04bb) | Prolific Technology  | PL2303 Serial (IODATA USB-RSAQ2)              |
 | [067b:0611](https://bsd-hardware.info?id=usb:067b-0611) | Prolific Technology  | AlDiga AL-11U Quad-band GSM/GPRS/EDGE modem   |
-| [067b:2303](https://bsd-hardware.info?id=usb:067b-2303) | Prolific Technology  | PL2303 Serial Port                            |
+| [067b:2303](https://bsd-hardware.info?id=usb:067b-2303) | Prolific Technology  | PL2303 Serial Port / Mobile Action MA-8910P   |
 | [067b:2501](https://bsd-hardware.info?id=usb:067b-2501) | Prolific Technology  | PL2501 USB-USB Bridge (USB 2.0)               |
 | [067b:2506](https://bsd-hardware.info?id=usb:067b-2506) | Prolific Technology  | Kaser 8gB micro hard drive                    |
 | [067b:aaa0](https://bsd-hardware.info?id=usb:067b-aaa0) | Prolific Technology  | Prolific Pharos                               |
@@ -1149,6 +1152,7 @@ This table is compiled from the [list of supported devices in FreeBSD](https://g
 | [0915:2000](https://bsd-hardware.info?id=usb:0915-2000) | GlobeSpan            | 802.11 Adapter                                |
 | [0915:2002](https://bsd-hardware.info?id=usb:0915-2002) | GlobeSpan            | 802.11 Adapter                                |
 | [091e:0004](https://bsd-hardware.info?id=usb:091e-0004) | Garmin International | iQue 3600                                     |
+| [091e:2459](https://bsd-hardware.info?id=usb:091e-2459) | Garmin International | GPSmap 62/78 series                           |
 | [0921:1001](https://bsd-hardware.info?id=usb:0921-1001) | GoHubs               | GoCOM232 Serial                               |
 | [0922:1001](https://bsd-hardware.info?id=usb:0922-1001) | Dymo-CoStar          | LabelManager PnP                              |
 | [0924:ffef](https://bsd-hardware.info?id=usb:0924-ffef) | Xerox                | WorkCenter M15                                |
@@ -1681,7 +1685,7 @@ This table is compiled from the [list of supported devices in FreeBSD](https://g
 | [100d:9032](https://bsd-hardware.info?id=usb:100d-9032) | Netopia              | Motorola 802.11n 5G USB Wireless Adapter      |
 | [1011:3198](https://bsd-hardware.info?id=usb:1011-3198) | Mobile Media         | Airplus MCD-650 CDMA 1xEVDO USB Modem         |
 | [1019:0c55](https://bsd-hardware.info?id=usb:1019-0c55) | Elitegroup Comput... | Flash Reader, Desknote UCR-61S2B              |
-| [103c:1629](https://bsd-hardware.info?id=usb:103c-1629) |                      | Realtek RTL8188CU Wireless LAN 802.11n USB... |
+| [103c:1629](https://bsd-hardware.info?id=usb:103c-1629) | Maker 103C           | Realtek RTL8188CU Wireless LAN 802.11n USB... |
 | [103e:03e8](https://bsd-hardware.info?id=usb:103e-03e8) | TTi                  | USB TTi PSU Serial Interface                  |
 | [1044:8001](https://bsd-hardware.info?id=usb:1044-8001) | Chu Yuen Enterprise  | GN-54G                                        |
 | [1044:8002](https://bsd-hardware.info?id=usb:1044-8002) | Chu Yuen Enterprise  | GN-BR402W                                     |
@@ -1949,7 +1953,7 @@ This table is compiled from the [list of supported devices in FreeBSD](https://g
 | [1435:0804](https://bsd-hardware.info?id=usb:1435-0804) | Wistron NeWeb        | AR9170+AR9104 802.11abgn Wireless Adapter     |
 | [1435:0826](https://bsd-hardware.info?id=usb:1435-0826) | Wistron NeWeb        | AR5523                                        |
 | [1453:4026](https://bsd-hardware.info?id=usb:1453-4026) | Radio Shack          | 26-183 Serial Cable                           |
-| [1457:5118](https://bsd-hardware.info?id=usb:1457-5118) | First Internation... | OpenMoko Neo1973 Debug board (V2+)            |
+| [1457:5118](https://bsd-hardware.info?id=usb:1457-5118) | FIC                  | OpenMoko Neo1973 Debug board (V2+)            |
 | [1472:0009](https://bsd-hardware.info?id=usb:1472-0009) | Huawei-3Com          | Aolynk WUB320g                                |
 | [1485:0001](https://bsd-hardware.info?id=usb:1485-0001) | Silicom              | U2E                                           |
 | [1485:0002](https://bsd-hardware.info?id=usb:1485-0002) | Silicom              | Psion Gold Port Ethernet                      |
@@ -2299,6 +2303,7 @@ This table is compiled from the [list of supported devices in FreeBSD](https://g
 | [3195:f190](https://bsd-hardware.info?id=usb:3195-f190) | Link Instruments     | MSO-19                                        |
 | [3195:f280](https://bsd-hardware.info?id=usb:3195-f280) | Link Instruments     | MSO-28                                        |
 | [3195:f281](https://bsd-hardware.info?id=usb:3195-f281) | Link Instruments     | MSO-28                                        |
+| [3310:0100](https://bsd-hardware.info?id=usb:3310-0100) | MUDITA Sp. z o.o.    | Pure                                          |
 | [3334:1701](https://bsd-hardware.info?id=usb:3334-1701) | AEI                  | Fast Ethernet                                 |
 | [3340:011c](https://bsd-hardware.info?id=usb:3340-011c) | Yakumo               | Mio DigiWalker PPC StrongARM                  |
 | [3340:0326](https://bsd-hardware.info?id=usb:3340-0326) | Yakumo               | Mio DigiWalker 338                            |
