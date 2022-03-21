@@ -3,10 +3,10 @@ Supported PCI device IDs (OpenBSD)
 
 Find detailed support status information by clicking on the device ID.
 
-This table is compiled from the [list of supported devices in OpenBSD](https://github.com/bsdhw/Drivers) and [pci.ids](http://pciids.sourceforge.net/v2.2/pci.ids).
+This table is compiled from the [list of supported devices in OpenBSD](https://github.com/bsdhw/Drivers) and [pci.ids](https://raw.githubusercontent.com/pciutils/pciids/master/pci.ids).
 
-| Device ID                                               | Vendor               | Name                                          |
-|---------------------------------------------------------|----------------------|-----------------------------------------------|
+| Device ID                                               | Vendor               | Name |
+|---------------------------------------------------------|----------------------|------|
 | [0070:4000](https://bsd-hardware.info?id=pci:0070-4000) | Hauppauge compute... | WinTV PVR-350                                 |
 | [0357:000a](https://bsd-hardware.info?id=pci:0357-000a) | TTTech Computerte... | TTP-Monitoring Card V2.0                      |
 | [0e11:0046](https://bsd-hardware.info?id=pci:0e11-0046) | Compaq Computer      | Smart Array 64xx                              |
@@ -152,7 +152,7 @@ This table is compiled from the [list of supported devices in OpenBSD](https://g
 | [1002:131b](https://bsd-hardware.info?id=pci:1002-131b) | AMD                  | Kaveri [Radeon R4 Graphics]                   |
 | [1002:131c](https://bsd-hardware.info?id=pci:1002-131c) | AMD                  | Kaveri [Radeon R7 Graphics]                   |
 | [1002:131d](https://bsd-hardware.info?id=pci:1002-131d) | AMD                  | Kaveri [Radeon R6 Graphics]                   |
-| [1002:15d8](https://bsd-hardware.info?id=pci:1002-15d8) | AMD                  | Picasso                                       |
+| [1002:15d8](https://bsd-hardware.info?id=pci:1002-15d8) | AMD                  | Picasso/Raven 2 [Radeon Vega Series / Rade... |
 | [1002:15dd](https://bsd-hardware.info?id=pci:1002-15dd) | AMD                  | Raven Ridge [Radeon Vega Series / Radeon V... |
 | [1002:1636](https://bsd-hardware.info?id=pci:1002-1636) | AMD                  | Renoir                                        |
 | [1002:3150](https://bsd-hardware.info?id=pci:1002-3150) | AMD                  | RV380/M24 [Mobility Radeon X600]              |
@@ -393,7 +393,7 @@ This table is compiled from the [list of supported devices in OpenBSD](https://g
 | [1002:6608](https://bsd-hardware.info?id=pci:1002-6608) | AMD                  | Oland GL [FirePro W2100]                      |
 | [1002:6610](https://bsd-hardware.info?id=pci:1002-6610) | AMD                  | Oland XT [Radeon HD 8670 / R5 340X OEM / R... |
 | [1002:6611](https://bsd-hardware.info?id=pci:1002-6611) | AMD                  | Oland [Radeon HD 8570 / R5 430 OEM / R7 24... |
-| [1002:6613](https://bsd-hardware.info?id=pci:1002-6613) | AMD                  | Oland PRO [Radeon R7 240/340]                 |
+| [1002:6613](https://bsd-hardware.info?id=pci:1002-6613) | AMD                  | Oland PRO [Radeon R7 240/340 / Radeon 520]    |
 | [1002:6617](https://bsd-hardware.info?id=pci:1002-6617) | AMD                  | Radeon R7 240                                 |
 | [1002:6620](https://bsd-hardware.info?id=pci:1002-6620) | AMD                  | Mars                                          |
 | [1002:6621](https://bsd-hardware.info?id=pci:1002-6621) | AMD                  | Mars Pro                                      |
@@ -417,7 +417,7 @@ This table is compiled from the [list of supported devices in OpenBSD](https://g
 | [1002:6667](https://bsd-hardware.info?id=pci:1002-6667) | AMD                  | Jet ULT [Radeon R5 M230]                      |
 | [1002:666f](https://bsd-hardware.info?id=pci:1002-666f) | AMD                  | Sun LE [Radeon HD 8550M / R5 M230]            |
 | [1002:66a0](https://bsd-hardware.info?id=pci:1002-66a0) | AMD                  | Vega 20 [Radeon Instinct]                     |
-| [1002:66a1](https://bsd-hardware.info?id=pci:1002-66a1) | AMD                  | Vega 20 WKS GL-XE [Radeon Pro VII]            |
+| [1002:66a1](https://bsd-hardware.info?id=pci:1002-66a1) | AMD                  | Vega 20 [Radeon Pro VII/Radeon Instinct MI... |
 | [1002:66a2](https://bsd-hardware.info?id=pci:1002-66a2) | AMD                  | Vega 20                                       |
 | [1002:66a3](https://bsd-hardware.info?id=pci:1002-66a3) | AMD                  | Vega 20 [Radeon Pro Vega II/Radeon Pro Veg... |
 | [1002:66a4](https://bsd-hardware.info?id=pci:1002-66a4) | AMD                  | Radeon Vega 20                                |
@@ -753,8 +753,8 @@ This table is compiled from the [list of supported devices in OpenBSD](https://g
 | [1002:7360](https://bsd-hardware.info?id=pci:1002-7360) | AMD                  | Navi 12 [Radeon Pro 5600M / V520]             |
 | [1002:7362](https://bsd-hardware.info?id=pci:1002-7362) | AMD                  | Navi 12 [Radeon Pro V520]                     |
 | [1002:7388](https://bsd-hardware.info?id=pci:1002-7388) | AMD                  | Arcturus GL-XL                                |
-| [1002:738c](https://bsd-hardware.info?id=pci:1002-738c) | AMD                  | Arcturus GL-XL [AMD Instinct MI100]           |
-| [1002:738e](https://bsd-hardware.info?id=pci:1002-738e) | AMD                  | Arcturus GL-XL                                |
+| [1002:738c](https://bsd-hardware.info?id=pci:1002-738c) | AMD                  | Arcturus GL-XL [Instinct MI100]               |
+| [1002:738e](https://bsd-hardware.info?id=pci:1002-738e) | AMD                  | Arcturus GL-XL [Instinct MI100]               |
 | [1002:7834](https://bsd-hardware.info?id=pci:1002-7834) | AMD                  | RS350 [Radeon 9100 PRO/XT IGP]                |
 | [1002:7835](https://bsd-hardware.info?id=pci:1002-7835) | AMD                  | RS350M [Mobility Radeon 9000 IGP]             |
 | [1002:791e](https://bsd-hardware.info?id=pci:1002-791e) | AMD                  | RS690 [Radeon X1200]                          |
@@ -850,7 +850,7 @@ This table is compiled from the [list of supported devices in OpenBSD](https://g
 | [1002:9552](https://bsd-hardware.info?id=pci:1002-9552) | AMD                  | RV710/M92 [Mobility Radeon HD 4330/4350/4550] |
 | [1002:9553](https://bsd-hardware.info?id=pci:1002-9553) | AMD                  | RV710/M92 [Mobility Radeon HD 4530/4570/545v] |
 | [1002:9555](https://bsd-hardware.info?id=pci:1002-9555) | AMD                  | RV710/M92 [Mobility Radeon HD 4350/4550]      |
-| [1002:9557](https://bsd-hardware.info?id=pci:1002-9557) | AMD                  | RV711 GL [FirePro RG220]                      |
+| [1002:9557](https://bsd-hardware.info?id=pci:1002-9557) | AMD                  | RV711/M93 GL [FirePro RG220]                  |
 | [1002:955f](https://bsd-hardware.info?id=pci:1002-955f) | AMD                  | RV710/M92 [Mobility Radeon HD 4330]           |
 | [1002:9580](https://bsd-hardware.info?id=pci:1002-9580) | AMD                  | RV630 [Radeon HD 2600 PRO]                    |
 | [1002:9581](https://bsd-hardware.info?id=pci:1002-9581) | AMD                  | RV630/M76 [Mobility Radeon HD 2600]           |
@@ -1047,7 +1047,7 @@ This table is compiled from the [list of supported devices in OpenBSD](https://g
 | [1022:1583](https://bsd-hardware.info?id=pci:1022-1583) | AMD                  | Family 16h (Models 30h-3fh) Processor Func... |
 | [1022:15d0](https://bsd-hardware.info?id=pci:1022-15d0) | AMD                  | Raven/Raven2 Root Complex                     |
 | [1022:15df](https://bsd-hardware.info?id=pci:1022-15df) | AMD                  | Family 17h (Models 10h-1fh) Platform Secur... |
-| [1022:15e3](https://bsd-hardware.info?id=pci:1022-15e3) | AMD                  | Family 17h (Models 10h-1fh) HD Audio Contr... |
+| [1022:15e3](https://bsd-hardware.info?id=pci:1022-15e3) | AMD                  | Family 17h/19h HD Audio Controller            |
 | [1022:1603](https://bsd-hardware.info?id=pci:1022-1603) | AMD                  | Family 15h Processor Function 3               |
 | [1022:1703](https://bsd-hardware.info?id=pci:1022-1703) | AMD                  | Family 12h/14h Processor Function 3           |
 | [1022:2000](https://bsd-hardware.info?id=pci:1022-2000) | AMD                  | 79c970 [PCnet32 LANCE]                        |
@@ -1660,7 +1660,7 @@ This table is compiled from the [list of supported devices in OpenBSD](https://g
 | [10de:0330](https://bsd-hardware.info?id=pci:10de-0330) | Nvidia               | NV35 [GeForce FX 5900 Ultra]                  |
 | [10de:0331](https://bsd-hardware.info?id=pci:10de-0331) | Nvidia               | NV35 [GeForce FX 5900]                        |
 | [10de:0332](https://bsd-hardware.info?id=pci:10de-0332) | Nvidia               | NV35 [GeForce FX 5900XT]                      |
-| [10de:0333](https://bsd-hardware.info?id=pci:10de-0333) | Nvidia               | NV38 [GeForce FX 5950 Ultra / PCX 5950]       |
+| [10de:0333](https://bsd-hardware.info?id=pci:10de-0333) | Nvidia               | NV38 [GeForce FX 5950 Ultra]                  |
 | [10de:0334](https://bsd-hardware.info?id=pci:10de-0334) | Nvidia               | NV35 [GeForce FX 5900ZT]                      |
 | [10de:0338](https://bsd-hardware.info?id=pci:10de-0338) | Nvidia               | NV35GL [Quadro FX 3000]                       |
 | [10de:033f](https://bsd-hardware.info?id=pci:10de-033f) | Nvidia               | NV35GL [Quadro FX 700]                        |
@@ -2342,6 +2342,7 @@ This table is compiled from the [list of supported devices in OpenBSD](https://g
 | [14e4:4401](https://bsd-hardware.info?id=pci:14e4-4401) | Broadcom             | BCM4401 100Base-T                             |
 | [14e4:4402](https://bsd-hardware.info?id=pci:14e4-4402) | Broadcom             | BCM4402 Integrated 10/100BaseT                |
 | [14e4:440d](https://bsd-hardware.info?id=pci:14e4-440d) | Broadcom             | Broadcom 802.11ac Network Adapter             |
+| [14e4:4425](https://bsd-hardware.info?id=pci:14e4-4425) | Broadcom             | BRCM4378 Wireless Network Adapter             |
 | [14e4:5820](https://bsd-hardware.info?id=pci:14e4-5820) | Broadcom             | BCM5820 Crypto Accelerator                    |
 | [14e4:5821](https://bsd-hardware.info?id=pci:14e4-5821) | Broadcom             | BCM5821 Crypto Accelerator                    |
 | [14e4:5822](https://bsd-hardware.info?id=pci:14e4-5822) | Broadcom             | BCM5822 Crypto Accelerator                    |
@@ -2596,7 +2597,7 @@ This table is compiled from the [list of supported devices in OpenBSD](https://g
 | [8086:0155](https://bsd-hardware.info?id=pci:8086-0155) | Intel                | Xeon E3-1200 v2/3rd Gen Core processor PCI... |
 | [8086:0156](https://bsd-hardware.info?id=pci:8086-0156) | Intel                | 3rd Gen Core processor Graphics Controller    |
 | [8086:015a](https://bsd-hardware.info?id=pci:8086-015a) | Intel                | Xeon E3-1200 v2/Ivy Bridge Graphics Contro... |
-| [8086:0162](https://bsd-hardware.info?id=pci:8086-0162) | Intel                | Xeon E3-1200 v2/3rd Gen Core processor Gra... |
+| [8086:0162](https://bsd-hardware.info?id=pci:8086-0162) | Intel                | IvyBridge GT2 [HD Graphics 4000]              |
 | [8086:0166](https://bsd-hardware.info?id=pci:8086-0166) | Intel                | 3rd Gen Core processor Graphics Controller    |
 | [8086:016a](https://bsd-hardware.info?id=pci:8086-016a) | Intel                | Xeon E3-1200 v2/3rd Gen Core processor Gra... |
 | [8086:02a3](https://bsd-hardware.info?id=pci:8086-02a3) | Intel                | Comet Lake PCH-LP SMBus Host Controller       |
@@ -2686,7 +2687,7 @@ This table is compiled from the [list of supported devices in OpenBSD](https://g
 | [8086:0d53](https://bsd-hardware.info?id=pci:8086-0d53) | Intel                | Ethernet Connection (12) I219-LM              |
 | [8086:0d55](https://bsd-hardware.info?id=pci:8086-0d55) | Intel                | Ethernet Connection (12) I219-V               |
 | [8086:0f04](https://bsd-hardware.info?id=pci:8086-0f04) | Intel                | Atom Processor Z36xxx/Z37xxx Series High D... |
-| [8086:0f12](https://bsd-hardware.info?id=pci:8086-0f12) | Intel                | Atom Processor E3800 Series SMBus Controller  |
+| [8086:0f12](https://bsd-hardware.info?id=pci:8086-0f12) | Intel                | Atom Processor E3800/CE2700 Series SMBus C... |
 | [8086:0f20](https://bsd-hardware.info?id=pci:8086-0f20) | Intel                | Atom Processor E3800 Series SATA IDE Contr... |
 | [8086:0f21](https://bsd-hardware.info?id=pci:8086-0f21) | Intel                | Atom Processor E3800 Series SATA IDE Contr... |
 | [8086:0f30](https://bsd-hardware.info?id=pci:8086-0f30) | Intel                | ValleyView Gen7                               |
@@ -3317,7 +3318,7 @@ This table is compiled from the [list of supported devices in OpenBSD](https://g
 | [8086:3b67](https://bsd-hardware.info?id=pci:8086-3b67) | Intel                | 5 Series/3400 Series Chipset KT Controller    |
 | [8086:3e90](https://bsd-hardware.info?id=pci:8086-3e90) | Intel                | CoffeeLake-S GT1 [UHD Graphics 610]           |
 | [8086:3e91](https://bsd-hardware.info?id=pci:8086-3e91) | Intel                | CoffeeLake-S GT2 [UHD Graphics 630]           |
-| [8086:3e92](https://bsd-hardware.info?id=pci:8086-3e92) | Intel                | CometLake-S GT2 [UHD Graphics 630]            |
+| [8086:3e92](https://bsd-hardware.info?id=pci:8086-3e92) | Intel                | CoffeeLake-S GT2 [UHD Graphics 630]           |
 | [8086:3e93](https://bsd-hardware.info?id=pci:8086-3e93) | Intel                | CoffeeLake-S GT1 [UHD Graphics 610]           |
 | [8086:3e94](https://bsd-hardware.info?id=pci:8086-3e94) | Intel                | Coffee Lake UHD Graphics P630                 |
 | [8086:3e96](https://bsd-hardware.info?id=pci:8086-3e96) | Intel                | CoffeeLake-S GT2 [UHD Graphics P630]          |
@@ -3509,7 +3510,7 @@ This table is compiled from the [list of supported devices in OpenBSD](https://g
 | [8086:9ba2](https://bsd-hardware.info?id=pci:8086-9ba2) | Intel                | Comet Lake UHD Graphics                       |
 | [8086:9ba4](https://bsd-hardware.info?id=pci:8086-9ba4) | Intel                | Comet Lake UHD Graphics                       |
 | [8086:9ba5](https://bsd-hardware.info?id=pci:8086-9ba5) | Intel                | Comet Lake UHD Graphics                       |
-| [8086:9ba8](https://bsd-hardware.info?id=pci:8086-9ba8) | Intel                | Comet Lake UHD Graphics                       |
+| [8086:9ba8](https://bsd-hardware.info?id=pci:8086-9ba8) | Intel                | CometLake-S GT1 [UHD Graphics 610]            |
 | [8086:9baa](https://bsd-hardware.info?id=pci:8086-9baa) | Intel                | Comet Lake UHD Graphics                       |
 | [8086:9bab](https://bsd-hardware.info?id=pci:8086-9bab) | Intel                | Comet Lake UHD Graphics                       |
 | [8086:9bac](https://bsd-hardware.info?id=pci:8086-9bac) | Intel                | Comet Lake UHD Graphics                       |

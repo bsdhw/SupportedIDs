@@ -3,10 +3,10 @@ Supported PCI device IDs (FreeBSD)
 
 Find detailed support status information by clicking on the device ID.
 
-This table is compiled from the [list of supported devices in FreeBSD](https://github.com/bsdhw/Drivers) and [pci.ids](http://pciids.sourceforge.net/v2.2/pci.ids).
+This table is compiled from the [list of supported devices in FreeBSD](https://github.com/bsdhw/Drivers) and [pci.ids](https://raw.githubusercontent.com/pciutils/pciids/master/pci.ids).
 
-| Device ID                                               | Vendor               | Name                                          |
-|---------------------------------------------------------|----------------------|-----------------------------------------------|
+| Device ID                                               | Vendor               | Name |
+|---------------------------------------------------------|----------------------|------|
 | [018a:0106](https://bsd-hardware.info?id=pci:018a-0106) | LevelOne             | FPC-0106TX misprogrammed [RTL81xx]            |
 | [021b:8139](https://bsd-hardware.info?id=pci:021b-8139) | Compaq Computer      | HNE-300 (RealTek RTL8139c) [iPaq Networking]  |
 | [0675:1702](https://bsd-hardware.info?id=pci:0675-1702) | Dynalink             | IS64PH ISDN Adapter                           |
@@ -423,7 +423,7 @@ This table is compiled from the [list of supported devices in FreeBSD](https://g
 | [1002:6608](https://bsd-hardware.info?id=pci:1002-6608) | AMD                  | Oland GL [FirePro W2100]                      |
 | [1002:6610](https://bsd-hardware.info?id=pci:1002-6610) | AMD                  | Oland XT [Radeon HD 8670 / R5 340X OEM / R... |
 | [1002:6611](https://bsd-hardware.info?id=pci:1002-6611) | AMD                  | Oland [Radeon HD 8570 / R5 430 OEM / R7 24... |
-| [1002:6613](https://bsd-hardware.info?id=pci:1002-6613) | AMD                  | Oland PRO [Radeon R7 240/340]                 |
+| [1002:6613](https://bsd-hardware.info?id=pci:1002-6613) | AMD                  | Oland PRO [Radeon R7 240/340 / Radeon 520]    |
 | [1002:6617](https://bsd-hardware.info?id=pci:1002-6617) | AMD                  | Radeon R7 240                                 |
 | [1002:6620](https://bsd-hardware.info?id=pci:1002-6620) | AMD                  | Mars                                          |
 | [1002:6621](https://bsd-hardware.info?id=pci:1002-6621) | AMD                  | Mars Pro                                      |
@@ -848,7 +848,7 @@ This table is compiled from the [list of supported devices in FreeBSD](https://g
 | [1002:9552](https://bsd-hardware.info?id=pci:1002-9552) | AMD                  | RV710/M92 [Mobility Radeon HD 4330/4350/4550] |
 | [1002:9553](https://bsd-hardware.info?id=pci:1002-9553) | AMD                  | RV710/M92 [Mobility Radeon HD 4530/4570/545v] |
 | [1002:9555](https://bsd-hardware.info?id=pci:1002-9555) | AMD                  | RV710/M92 [Mobility Radeon HD 4350/4550]      |
-| [1002:9557](https://bsd-hardware.info?id=pci:1002-9557) | AMD                  | RV711 GL [FirePro RG220]                      |
+| [1002:9557](https://bsd-hardware.info?id=pci:1002-9557) | AMD                  | RV711/M93 GL [FirePro RG220]                  |
 | [1002:955f](https://bsd-hardware.info?id=pci:1002-955f) | AMD                  | RV710/M92 [Mobility Radeon HD 4330]           |
 | [1002:9580](https://bsd-hardware.info?id=pci:1002-9580) | AMD                  | RV630 [Radeon HD 2600 PRO]                    |
 | [1002:9581](https://bsd-hardware.info?id=pci:1002-9581) | AMD                  | RV630/M76 [Mobility Radeon HD 2600]           |
@@ -1082,9 +1082,9 @@ This table is compiled from the [list of supported devices in FreeBSD](https://g
 | [1022:1583](https://bsd-hardware.info?id=pci:1022-1583) | AMD                  | Family 16h (Models 30h-3fh) Processor Func... |
 | [1022:15d0](https://bsd-hardware.info?id=pci:1022-15d0) | AMD                  | Raven/Raven2 Root Complex                     |
 | [1022:15df](https://bsd-hardware.info?id=pci:1022-15df) | AMD                  | Family 17h (Models 10h-1fh) Platform Secur... |
-| [1022:15e3](https://bsd-hardware.info?id=pci:1022-15e3) | AMD                  | Family 17h (Models 10h-1fh) HD Audio Contr... |
+| [1022:15e3](https://bsd-hardware.info?id=pci:1022-15e3) | AMD                  | Family 17h/19h HD Audio Controller            |
 | [1022:1603](https://bsd-hardware.info?id=pci:1022-1603) | AMD                  | Family 15h Processor Function 3               |
-| [1022:1630](https://bsd-hardware.info?id=pci:1022-1630) | AMD                  | Renoir Root Complex                           |
+| [1022:1630](https://bsd-hardware.info?id=pci:1022-1630) | AMD                  | Renoir/Cezanne Root Complex                   |
 | [1022:1703](https://bsd-hardware.info?id=pci:1022-1703) | AMD                  | Family 12h/14h Processor Function 3           |
 | [1022:2000](https://bsd-hardware.info?id=pci:1022-2000) | AMD                  | 79c970 [PCnet32 LANCE]                        |
 | [1022:2001](https://bsd-hardware.info?id=pci:1022-2001) | AMD                  | Am79C978 PCnet Home (HomePNA) 1/10 PCI Eth... |
@@ -1176,7 +1176,7 @@ This table is compiled from the [list of supported devices in FreeBSD](https://g
 | [1039:0191](https://bsd-hardware.info?id=pci:1039-0191) | Silicon Integrate... | 191 Gigabit Ethernet Adapter                  |
 | [1039:0300](https://bsd-hardware.info?id=pci:1039-0300) | Silicon Integrate... | 300/305 PCI/AGP VGA Display Adapter           |
 | [1039:0406](https://bsd-hardware.info?id=pci:1039-0406) | Silicon Integrate... | 85C501/2                                      |
-| [1039:0496](https://bsd-hardware.info?id=pci:1039-0496) | Silicon Integrate... | 85C496                                        |
+| [1039:0496](https://bsd-hardware.info?id=pci:1039-0496) | Silicon Integrate... | SiS85C496 PCI & CPU Memory Controller (PCM)   |
 | [1039:0530](https://bsd-hardware.info?id=pci:1039-0530) | Silicon Integrate... | 530 Host                                      |
 | [1039:0540](https://bsd-hardware.info?id=pci:1039-0540) | Silicon Integrate... | 540 Host                                      |
 | [1039:0550](https://bsd-hardware.info?id=pci:1039-0550) | Silicon Integrate... | 550 Host                                      |
@@ -1477,7 +1477,10 @@ This table is compiled from the [list of supported devices in FreeBSD](https://g
 | [10b5:1076](https://bsd-hardware.info?id=pci:10b5-1076) | PLX Technology       | VScom 800 8 port serial adaptor               |
 | [10b5:1077](https://bsd-hardware.info?id=pci:10b5-1077) | PLX Technology       | VScom 400 4 port serial adaptor               |
 | [10b5:1103](https://bsd-hardware.info?id=pci:10b5-1103) | PLX Technology       | VScom 200 2 port serial adaptor               |
-| [10b5:87b0](https://bsd-hardware.info?id=pci:10b5-87b0) | PLX Technology       | PEX 8732 32-lane, 8-Port PCI Express Gen 3... |
+| [10b5:87a0](https://bsd-hardware.info?id=pci:10b5-87a0) | PLX Technology       | PEX PCI Express Switch NT0 Port Link Inter... |
+| [10b5:87a1](https://bsd-hardware.info?id=pci:10b5-87a1) | PLX Technology       | PEX PCI Express Switch NT1 Port Link Inter... |
+| [10b5:87b0](https://bsd-hardware.info?id=pci:10b5-87b0) | PLX Technology       | PEX PCI Express Switch NT0 Port Virtual In... |
+| [10b5:87b1](https://bsd-hardware.info?id=pci:10b5-87b1) | PLX Technology       | PEX PCI Express Switch NT1 Port Virtual In... |
 | [10b5:9050](https://bsd-hardware.info?id=pci:10b5-9050) | PLX Technology       | PCI <-> IOBus Bridge                          |
 | [10b5:9054](https://bsd-hardware.info?id=pci:10b5-9054) | PLX Technology       | PCI9054 32-bit 33MHz PCI <-> IOBus Bridge     |
 | [10b5:9080](https://bsd-hardware.info?id=pci:10b5-9080) | PLX Technology       | PCI9080 32-bit; 33MHz PCI <-> IOBus Bridge    |
@@ -1771,7 +1774,7 @@ This table is compiled from the [list of supported devices in FreeBSD](https://g
 | [10de:0330](https://bsd-hardware.info?id=pci:10de-0330) | Nvidia               | NV35 [GeForce FX 5900 Ultra]                  |
 | [10de:0331](https://bsd-hardware.info?id=pci:10de-0331) | Nvidia               | NV35 [GeForce FX 5900]                        |
 | [10de:0332](https://bsd-hardware.info?id=pci:10de-0332) | Nvidia               | NV35 [GeForce FX 5900XT]                      |
-| [10de:0333](https://bsd-hardware.info?id=pci:10de-0333) | Nvidia               | NV38 [GeForce FX 5950 Ultra / PCX 5950]       |
+| [10de:0333](https://bsd-hardware.info?id=pci:10de-0333) | Nvidia               | NV38 [GeForce FX 5950 Ultra]                  |
 | [10de:0334](https://bsd-hardware.info?id=pci:10de-0334) | Nvidia               | NV35 [GeForce FX 5900ZT]                      |
 | [10de:0338](https://bsd-hardware.info?id=pci:10de-0338) | Nvidia               | NV35GL [Quadro FX 3000]                       |
 | [10de:033f](https://bsd-hardware.info?id=pci:10de-033f) | Nvidia               | NV35GL [Quadro FX 700]                        |
@@ -2977,7 +2980,7 @@ This table is compiled from the [list of supported devices in FreeBSD](https://g
 | [11f8:8071](https://bsd-hardware.info?id=pci:11f8-8071) | PMC-Sierra           | PM8071 Tachyon SPCve 12G eight-port SAS/SA... |
 | [11f8:8072](https://bsd-hardware.info?id=pci:11f8-8072) | PMC-Sierra           | PM8072 Tachyon SPCv 12G 16-port SAS/SATA c... |
 | [11f8:8073](https://bsd-hardware.info?id=pci:11f8-8073) | PMC-Sierra           | PM8073 Tachyon SPCve 12G 16-port SAS/SATA ... |
-| [11fe:8015](https://bsd-hardware.info?id=pci:11fe-8015) | Pepperl+Fuchs Com... | RocketPort 550 4-port                         |
+| [11fe:8015](https://bsd-hardware.info?id=pci:11fe-8015) | Pepperl+Fuchs        | RocketPort 550 4-port                         |
 | [120e:0100](https://bsd-hardware.info?id=pci:120e-0100) | Cyclades             | Cyclom-Y below first megabyte                 |
 | [120e:0101](https://bsd-hardware.info?id=pci:120e-0101) | Cyclades             | Cyclom-Y above first megabyte                 |
 | [1217:6729](https://bsd-hardware.info?id=pci:1217-6729) | O2 Micro             | OZ6729                                        |
@@ -3166,10 +3169,10 @@ This table is compiled from the [list of supported devices in FreeBSD](https://g
 | [1415:c138](https://bsd-hardware.info?id=pci:1415-c138) | Oxford Semiconductor | OXPCIe952 Native 950 UART                     |
 | [1415:c158](https://bsd-hardware.info?id=pci:1415-c158) | Oxford Semiconductor | OXPCIe952 Dual Native 950 UART                |
 | [1415:c15d](https://bsd-hardware.info?id=pci:1415-c15d) | Oxford Semiconductor | OXPCIe952 Dual Native 950 UART                |
-| [1415:c208](https://bsd-hardware.info?id=pci:1415-c208) | Oxford Semiconductor | PCI Express Multiport Serial Adapter          |
-| [1415:c20d](https://bsd-hardware.info?id=pci:1415-c20d) | Oxford Semiconductor | PCI Express Multiport Serial Adapter          |
-| [1415:c308](https://bsd-hardware.info?id=pci:1415-c308) | Oxford Semiconductor | EX-44016 16-port serial                       |
-| [1415:c30d](https://bsd-hardware.info?id=pci:1415-c30d) | Oxford Semiconductor | PCI Express Multiport Serial Adapter          |
+| [1415:c208](https://bsd-hardware.info?id=pci:1415-c208) | Oxford Semiconductor | OXPCIe954 Quad Native 950 UART                |
+| [1415:c20d](https://bsd-hardware.info?id=pci:1415-c20d) | Oxford Semiconductor | OXPCIe954 Quad Native 950 UART                |
+| [1415:c308](https://bsd-hardware.info?id=pci:1415-c308) | Oxford Semiconductor | OXPCIe958 Quad Native 950 UART                |
+| [1415:c30d](https://bsd-hardware.info?id=pci:1415-c30d) | Oxford Semiconductor | OXPCIe958 Quad Native 950 UART                |
 | [1425:4001](https://bsd-hardware.info?id=pci:1425-4001) | Chelsio Communica... | T420-CR Unified Wire Ethernet Controller      |
 | [1425:4002](https://bsd-hardware.info?id=pci:1425-4002) | Chelsio Communica... | T422-CR Unified Wire Ethernet Controller      |
 | [1425:4003](https://bsd-hardware.info?id=pci:1425-4003) | Chelsio Communica... | T440-CR Unified Wire Ethernet Controller      |
@@ -3531,6 +3534,7 @@ This table is compiled from the [list of supported devices in FreeBSD](https://g
 | [14f1:5045](https://bsd-hardware.info?id=pci:14f1-5045) | Conexant Systems     | CX20549 (Venice)                              |
 | [14f1:5047](https://bsd-hardware.info?id=pci:14f1-5047) | Conexant Systems     | High Definition Audio [Waikiki]               |
 | [14f1:5051](https://bsd-hardware.info?id=pci:14f1-5051) | Conexant Systems     | High Definition Audio (HERMOSA)               |
+| [14f1:510f](https://bsd-hardware.info?id=pci:14f1-510f) | Conexant Systems     | Conexant CX 20751/20752                       |
 | [1500:1320](https://bsd-hardware.info?id=pci:1500-1320) | DELTA Electronics    | VT86C100A 10/100M PCI Fast Ethernet Controler |
 | [1500:1360](https://bsd-hardware.info?id=pci:1500-1360) | DELTA Electronics    | RTL81xx RealTek Ethernet                      |
 | [1524:0550](https://bsd-hardware.info?id=pci:1524-0550) | ENE Technology       | ENE PCI Secure Digital Card Reader Controller |
@@ -3752,7 +3756,7 @@ This table is compiled from the [list of supported devices in FreeBSD](https://g
 | [1b4b:9125](https://bsd-hardware.info?id=pci:1b4b-9125) | Marvell Technolog... | 88SE9125 PCIe SATA 6.0 Gb/s controller        |
 | [1b4b:9128](https://bsd-hardware.info?id=pci:1b4b-9128) | Marvell Technolog... | 88SE9128 PCIe SATA 6 Gb/s RAID controller     |
 | [1b4b:9130](https://bsd-hardware.info?id=pci:1b4b-9130) | Marvell Technolog... | 88SE9128 PCIe SATA 6 Gb/s RAID controller ... |
-| [1b4b:9170](https://bsd-hardware.info?id=pci:1b4b-9170) | Marvell Technolog... | 88SE9170 SATA 6G Controller                   |
+| [1b4b:9170](https://bsd-hardware.info?id=pci:1b4b-9170) | Marvell Technolog... | 88SE9170 PCIe 2.0 x1 2-port SATA 6 Gb/s Co... |
 | [1b4b:9172](https://bsd-hardware.info?id=pci:1b4b-9172) | Marvell Technolog... | 88SE9172 SATA 6Gb/s Controller                |
 | [1b4b:917a](https://bsd-hardware.info?id=pci:1b4b-917a) | Marvell Technolog... | 88SE9172 SATA III 6Gb/s RAID Controller       |
 | [1b4b:9182](https://bsd-hardware.info?id=pci:1b4b-9182) | Marvell Technolog... | 88SE9182 PCIe 2.0 x2 2-port SATA 6 Gb/s Co... |
@@ -3837,7 +3841,7 @@ This table is compiled from the [list of supported devices in FreeBSD](https://g
 | [8086:0155](https://bsd-hardware.info?id=pci:8086-0155) | Intel                | Xeon E3-1200 v2/3rd Gen Core processor PCI... |
 | [8086:0156](https://bsd-hardware.info?id=pci:8086-0156) | Intel                | 3rd Gen Core processor Graphics Controller    |
 | [8086:015a](https://bsd-hardware.info?id=pci:8086-015a) | Intel                | Xeon E3-1200 v2/Ivy Bridge Graphics Contro... |
-| [8086:0162](https://bsd-hardware.info?id=pci:8086-0162) | Intel                | Xeon E3-1200 v2/3rd Gen Core processor Gra... |
+| [8086:0162](https://bsd-hardware.info?id=pci:8086-0162) | Intel                | IvyBridge GT2 [HD Graphics 4000]              |
 | [8086:0166](https://bsd-hardware.info?id=pci:8086-0166) | Intel                | 3rd Gen Core processor Graphics Controller    |
 | [8086:016a](https://bsd-hardware.info?id=pci:8086-016a) | Intel                | Xeon E3-1200 v2/3rd Gen Core processor Gra... |
 | [8086:02c5](https://bsd-hardware.info?id=pci:8086-02c5) | Intel                | Comet Lake Serial IO I2C Host Controller      |
@@ -3948,7 +3952,7 @@ This table is compiled from the [list of supported devices in FreeBSD](https://g
 | [8086:0f04](https://bsd-hardware.info?id=pci:8086-0f04) | Intel                | Atom Processor Z36xxx/Z37xxx Series High D... |
 | [8086:0f0a](https://bsd-hardware.info?id=pci:8086-0f0a) | Intel                | Atom Processor Z36xxx/Z37xxx Series LPIO1 ... |
 | [8086:0f0c](https://bsd-hardware.info?id=pci:8086-0f0c) | Intel                | Atom Processor Z36xxx/Z37xxx Series LPIO1 ... |
-| [8086:0f12](https://bsd-hardware.info?id=pci:8086-0f12) | Intel                | Atom Processor E3800 Series SMBus Controller  |
+| [8086:0f12](https://bsd-hardware.info?id=pci:8086-0f12) | Intel                | Atom Processor E3800/CE2700 Series SMBus C... |
 | [8086:0f14](https://bsd-hardware.info?id=pci:8086-0f14) | Intel                | Atom Processor Z36xxx/Z37xxx Series SDIO C... |
 | [8086:0f15](https://bsd-hardware.info?id=pci:8086-0f15) | Intel                | Atom Processor Z36xxx/Z37xxx Series SDIO C... |
 | [8086:0f1c](https://bsd-hardware.info?id=pci:8086-0f1c) | Intel                | Atom Processor Z36xxx/Z37xxx Series Power ... |
@@ -4318,6 +4322,7 @@ This table is compiled from the [list of supported devices in FreeBSD](https://g
 | [8086:19db](https://bsd-hardware.info?id=pci:8086-19db) | Intel                | Atom Processor C3000 Series SD Host Contro... |
 | [8086:19df](https://bsd-hardware.info?id=pci:8086-19df) | Intel                | Atom Processor C3000 Series SMBus controller  |
 | [8086:19e2](https://bsd-hardware.info?id=pci:8086-19e2) | Intel                | Atom Processor C3000 Series QuickAssist Te... |
+| [8086:19e3](https://bsd-hardware.info?id=pci:8086-19e3) | Intel                | Atom Processor C3000 Series QuickAssist Te... |
 | [8086:1a21](https://bsd-hardware.info?id=pci:8086-1a21) | Intel                | 82840 840 [Carmel] Chipset Host Bridge (Hu... |
 | [8086:1a30](https://bsd-hardware.info?id=pci:8086-1a30) | Intel                | 82845 845 [Brookdale] Chipset Host Bridge     |
 | [8086:1a31](https://bsd-hardware.info?id=pci:8086-1a31) | Intel                | 82845 845 [Brookdale] Chipset AGP Bridge      |
@@ -4846,7 +4851,7 @@ This table is compiled from the [list of supported devices in FreeBSD](https://g
 | [8086:3c2f](https://bsd-hardware.info?id=pci:8086-3c2f) | Intel                | Xeon E5/Core i7 DMA                           |
 | [8086:3e90](https://bsd-hardware.info?id=pci:8086-3e90) | Intel                | CoffeeLake-S GT1 [UHD Graphics 610]           |
 | [8086:3e91](https://bsd-hardware.info?id=pci:8086-3e91) | Intel                | CoffeeLake-S GT2 [UHD Graphics 630]           |
-| [8086:3e92](https://bsd-hardware.info?id=pci:8086-3e92) | Intel                | CometLake-S GT2 [UHD Graphics 630]            |
+| [8086:3e92](https://bsd-hardware.info?id=pci:8086-3e92) | Intel                | CoffeeLake-S GT2 [UHD Graphics 630]           |
 | [8086:3e93](https://bsd-hardware.info?id=pci:8086-3e93) | Intel                | CoffeeLake-S GT1 [UHD Graphics 610]           |
 | [8086:3e94](https://bsd-hardware.info?id=pci:8086-3e94) | Intel                | Coffee Lake UHD Graphics P630                 |
 | [8086:3e96](https://bsd-hardware.info?id=pci:8086-3e96) | Intel                | CoffeeLake-S GT2 [UHD Graphics P630]          |
@@ -4893,7 +4898,7 @@ This table is compiled from the [list of supported devices in FreeBSD](https://g
 | [8086:43eb](https://bsd-hardware.info?id=pci:8086-43eb) | Intel                | 500 Series Chipset Family LPSS: I2C Contro... |
 | [8086:467f](https://bsd-hardware.info?id=pci:8086-467f) | Intel                | Volume Management Device NVMe RAID Controller |
 | [8086:4c3d](https://bsd-hardware.info?id=pci:8086-4c3d) | Intel                | Volume Management Device NVMe RAID Controller |
-| [8086:4dc8](https://bsd-hardware.info?id=pci:8086-4dc8) | Intel                | Jasper Lake HD Graphics SGPC                  |
+| [8086:4dc8](https://bsd-hardware.info?id=pci:8086-4dc8) | Intel                | Jasper Lake HD Audio                          |
 | [8086:5032](https://bsd-hardware.info?id=pci:8086-5032) | Intel                | EP80579 SMBus Controller                      |
 | [8086:5309](https://bsd-hardware.info?id=pci:8086-5309) | Intel                | 80303 I/O Processor Address Translation Unit  |
 | [8086:5902](https://bsd-hardware.info?id=pci:8086-5902) | Intel                | HD Graphics 610                               |
@@ -5255,7 +5260,7 @@ This table is compiled from the [list of supported devices in FreeBSD](https://g
 | [8086:a3e1](https://bsd-hardware.info?id=pci:8086-a3e1) | Intel                | Comet Lake PCH-V LPSS: I2C Controller #1      |
 | [8086:a3e2](https://bsd-hardware.info?id=pci:8086-a3e2) | Intel                | Comet Lake PCH-V LPSS: I2C Controller #2      |
 | [8086:a3e3](https://bsd-hardware.info?id=pci:8086-a3e3) | Intel                | Comet Lake PCH-V LPSS: I2C Controller #3      |
-| [8086:a3f0](https://bsd-hardware.info?id=pci:8086-a3f0) | Intel                | Comet Lake PCH-V Smart Sound Technology Au... |
+| [8086:a3f0](https://bsd-hardware.info?id=pci:8086-a3f0) | Intel                | Comet Lake PCH-V cAVS                         |
 | [8086:ffff](https://bsd-hardware.info?id=pci:8086-ffff) | Intel                | 82450KX/GX Chipset Cache/DRAM Controller (... |
 | [8384:7618](https://bsd-hardware.info?id=pci:8384-7618) | SigmaTel             | High Definition Audio Codec                   |
 | [8384:7634](https://bsd-hardware.info?id=pci:8384-7634) | SigmaTel             | 9250 HD Audio Codec                           |

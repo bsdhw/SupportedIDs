@@ -3,10 +3,10 @@ Supported USB device IDs (FreeBSD)
 
 Find detailed support status information by clicking on the device ID.
 
-This table is compiled from the [list of supported devices in FreeBSD](https://github.com/bsdhw/Drivers) and [usb.ids](http://www.linux-usb.org/usb.ids).
+This table is compiled from the [list of supported devices in FreeBSD](https://github.com/bsdhw/Drivers) and [usb.ids](https://raw.githubusercontent.com/usbids/usbids/master/usb.ids).
 
-| Device ID                                               | Vendor               | Name                                          |
-|---------------------------------------------------------|----------------------|-----------------------------------------------|
+| Device ID                                               | Vendor               | Name |
+|---------------------------------------------------------|----------------------|------|
 | [0079:0011](https://bsd-hardware.info?id=usb:0079-0011) | DragonRise           | Gamepad                                       |
 | [0104:00be](https://bsd-hardware.info?id=usb:0104-00be) |                      | Socket USB Sync Card                          |
 | [0123:0001](https://bsd-hardware.info?id=usb:0123-0001) |                      | Touchkit USB Controller for TouchScreen       |
@@ -1655,9 +1655,9 @@ This table is compiled from the [list of supported devices in FreeBSD](https://g
 | [0e67:0002](https://bsd-hardware.info?id=usb:0e67-0002) | Fossil               | Wrist PDA                                     |
 | [0e7e:1001](https://bsd-hardware.info?id=usb:0e7e-1001) | Gmate                | YP3X00 PDA                                    |
 | [0ea0:6858](https://bsd-hardware.info?id=usb:0ea0-6858) | Ours Technology      | OTi-6858 serial adapter                       |
-| [0eb0:9020](https://bsd-hardware.info?id=usb:0eb0-9020) | NovaTech             | NovaTech NV-902W                              |
-| [0eb0:9021](https://bsd-hardware.info?id=usb:0eb0-9021) | NovaTech             | RT2573                                        |
-| [0eb0:9071](https://bsd-hardware.info?id=usb:0eb0-9071) | NovaTech             | Wireless USB Card                             |
+| [0eb0:9020](https://bsd-hardware.info?id=usb:0eb0-9020) | Novatech             | NovaTech NV-902W                              |
+| [0eb0:9021](https://bsd-hardware.info?id=usb:0eb0-9021) | Novatech             | RT2573                                        |
+| [0eb0:9071](https://bsd-hardware.info?id=usb:0eb0-9071) | Novatech             | Wireless USB Card                             |
 | [0ed1:6660](https://bsd-hardware.info?id=usb:0ed1-6660) | WinMaxGroup          | Flash Disk 64M-C                              |
 | [0eef:0001](https://bsd-hardware.info?id=usb:0eef-0001) | D-WAV Scientific     | Titan6001 Surface Acoustic Wave Touchscree... |
 | [0eef:0002](https://bsd-hardware.info?id=usb:0eef-0002) | D-WAV Scientific     | Touchscreen Controller(Professional)          |
@@ -2020,7 +2020,7 @@ This table is compiled from the [list of supported devices in FreeBSD](https://g
 | [15a9:0010](https://bsd-hardware.info?id=usb:15a9-0010) | Gemtek               | 802.11n USB Wireless Card                     |
 | [15ba:0003](https://bsd-hardware.info?id=usb:15ba-0003) | Olimex               | OpenOCD JTAG                                  |
 | [15ba:002b](https://bsd-hardware.info?id=usb:15ba-002b) | Olimex               | ARM-USB-OCD-H JTAG+RS232                      |
-| [15c5:0008](https://bsd-hardware.info?id=usb:15c5-0008) | Advance Multimedi... | WL532U 802.11g Adapter                        |
+| [15c5:0008](https://bsd-hardware.info?id=usb:15c5-0008) | Pressure Profile ... | Advance Multimedia Internet Technology Inc... |
 | [15ca:0101](https://bsd-hardware.info?id=usb:15ca-0101) | Textech Internati... | MIDI Interface cable                          |
 | [15ca:1806](https://bsd-hardware.info?id=usb:15ca-1806) | Textech Internati... | MIDI Interface cable                          |
 | [15e8:9100](https://bsd-hardware.info?id=usb:15e8-9100) | SohoWare             | NUB100 Ethernet [pegasus]                     |
@@ -2389,7 +2389,7 @@ This table is compiled from the [list of supported devices in FreeBSD](https://g
 | [7392:a812](https://bsd-hardware.info?id=usb:7392-a812) | Edimax Technology    | Edimax AC600 Wireless LAN USB Adapter         |
 | [7392:a822](https://bsd-hardware.info?id=usb:7392-a822) | Edimax Technology    | Edimax AC1200 Wireless LAN USB Adapter        |
 | [8087:0025](https://bsd-hardware.info?id=usb:8087-0025) | Intel                | Wireless-AC 9260 Bluetooth Adapter            |
-| [8087:0026](https://bsd-hardware.info?id=usb:8087-0026) | Intel                | Intel Wireless Bluetooth                      |
+| [8087:0026](https://bsd-hardware.info?id=usb:8087-0026) | Intel                | AX201 Bluetooth                               |
 | [8087:0029](https://bsd-hardware.info?id=usb:8087-0029) | Intel                | AX200 Bluetooth                               |
 | [8087:0a2b](https://bsd-hardware.info?id=usb:8087-0a2b) | Intel                | Bluetooth wireless interface                  |
 | [8087:0aaa](https://bsd-hardware.info?id=usb:8087-0aaa) | Intel                | Bluetooth 9460/9560 Jefferson Peak (JfP)      |

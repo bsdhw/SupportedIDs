@@ -3,10 +3,10 @@ Supported USB device IDs (NetBSD)
 
 Find detailed support status information by clicking on the device ID.
 
-This table is compiled from the [list of supported devices in NetBSD](https://github.com/bsdhw/Drivers) and [usb.ids](http://www.linux-usb.org/usb.ids).
+This table is compiled from the [list of supported devices in NetBSD](https://github.com/bsdhw/Drivers) and [usb.ids](https://raw.githubusercontent.com/usbids/usbids/master/usb.ids).
 
-| Device ID                                               | Vendor               | Name                                          |
-|---------------------------------------------------------|----------------------|-----------------------------------------------|
+| Device ID                                               | Vendor               | Name |
+|---------------------------------------------------------|----------------------|------|
 | [0053:5301](https://bsd-hardware.info?id=usb:0053-5301) | Planex               | GW-US54ZGL 802.11bg                           |
 | [0123:0001](https://bsd-hardware.info?id=usb:0123-0001) |                      | Touchkit USB Controller for TouchScreen       |
 | [03e8:0008](https://bsd-hardware.info?id=usb:03e8-0008) | EndPoints            | 101 Ethernet [klsi]                           |
@@ -851,9 +851,9 @@ This table is compiled from the [list of supported devices in NetBSD](https://gi
 | [0e66:400c](https://bsd-hardware.info?id=usb:0e66-400c) | Hawking Technologies | UF100 Ethernet [pegasus2]                     |
 | [0e7e:1001](https://bsd-hardware.info?id=usb:0e7e-1001) | Gmate                | YP3X00 PDA                                    |
 | [0e8d:3329](https://bsd-hardware.info?id=usb:0e8d-3329) | MediaTek             | Qstarz BT-Q1000XT                             |
-| [0eb0:9020](https://bsd-hardware.info?id=usb:0eb0-9020) | NovaTech             | NovaTech NV-902W                              |
-| [0eb0:9021](https://bsd-hardware.info?id=usb:0eb0-9021) | NovaTech             | RT2573                                        |
-| [0eb0:9071](https://bsd-hardware.info?id=usb:0eb0-9071) | NovaTech             | Wireless USB Card                             |
+| [0eb0:9020](https://bsd-hardware.info?id=usb:0eb0-9020) | Novatech             | NovaTech NV-902W                              |
+| [0eb0:9021](https://bsd-hardware.info?id=usb:0eb0-9021) | Novatech             | RT2573                                        |
+| [0eb0:9071](https://bsd-hardware.info?id=usb:0eb0-9071) | Novatech             | Wireless USB Card                             |
 | [0eef:0001](https://bsd-hardware.info?id=usb:0eef-0001) | D-WAV Scientific     | Titan6001 Surface Acoustic Wave Touchscree... |
 | [0eef:0002](https://bsd-hardware.info?id=usb:0eef-0002) | D-WAV Scientific     | Touchscreen Controller(Professional)          |
 | [0f3d:0112](https://bsd-hardware.info?id=usb:0f3d-0112) | Airprime, Incorpo... | CDMA 1xEVDO PC Card, PC 5220                  |
@@ -1057,7 +1057,7 @@ This table is compiled from the [list of supported devices in NetBSD](https://gi
 | [15a9:0006](https://bsd-hardware.info?id=usb:15a9-0006) | Gemtek               | Wireless 11n USB Adapter                      |
 | [15a9:0010](https://bsd-hardware.info?id=usb:15a9-0010) | Gemtek               | 802.11n USB Wireless Card                     |
 | [15a9:0012](https://bsd-hardware.info?id=usb:15a9-0012) | Gemtek               | WUBR-208N 802.11abgn Wireless Adapter [Ral... |
-| [15c5:0008](https://bsd-hardware.info?id=usb:15c5-0008) | Advance Multimedi... | WL532U 802.11g Adapter                        |
+| [15c5:0008](https://bsd-hardware.info?id=usb:15c5-0008) | Pressure Profile ... | Advance Multimedia Internet Technology Inc... |
 | [15e8:9100](https://bsd-hardware.info?id=usb:15e8-9100) | SohoWare             | NUB100 Ethernet [pegasus]                     |
 | [1606:0002](https://bsd-hardware.info?id=usb:1606-0002) | UMAX                 | Astra 1236U Scanner                           |
 | [1606:0010](https://bsd-hardware.info?id=usb:1606-0010) | UMAX                 | Astra 1220U                                   |

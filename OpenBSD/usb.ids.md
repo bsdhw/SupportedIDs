@@ -3,10 +3,10 @@ Supported USB device IDs (OpenBSD)
 
 Find detailed support status information by clicking on the device ID.
 
-This table is compiled from the [list of supported devices in OpenBSD](https://github.com/bsdhw/Drivers) and [usb.ids](http://www.linux-usb.org/usb.ids).
+This table is compiled from the [list of supported devices in OpenBSD](https://github.com/bsdhw/Drivers) and [usb.ids](https://raw.githubusercontent.com/usbids/usbids/master/usb.ids).
 
-| Device ID                                               | Vendor               | Name                                          |
-|---------------------------------------------------------|----------------------|-----------------------------------------------|
+| Device ID                                               | Vendor               | Name |
+|---------------------------------------------------------|----------------------|------|
 | [0053:5301](https://bsd-hardware.info?id=usb:0053-5301) | Planex               | GW-US54ZGL 802.11bg                           |
 | [0105:145f](https://bsd-hardware.info?id=usb:0105-145f) | Trust International  | NW-3100 802.11b/g 54Mbps Wireless Network ... |
 | [03e8:0008](https://bsd-hardware.info?id=usb:03e8-0008) | EndPoints            | 101 Ethernet [klsi]                           |
@@ -213,9 +213,9 @@ This table is compiled from the [list of supported devices in OpenBSD](https://g
 | [0424:9e01](https://bsd-hardware.info?id=usb:0424-9e01) | Microchip Technology | LAN9505A USB 2.0 to Ethernet 10/100 Adapter   |
 | [0424:9e08](https://bsd-hardware.info?id=usb:0424-9e08) | Microchip Technology | LAN89530 USB 2.0 to Ethernet 10/100 Adapter   |
 | [0424:ec00](https://bsd-hardware.info?id=usb:0424-ec00) | Microchip Technology | SMSC9512/9514 Fast Ethernet Adapter           |
-| [0430:0005](https://bsd-hardware.info?id=usb:0430-0005) | Sun Microsystems     | Type 6 Keyboard                               |
-| [0430:00a2](https://bsd-hardware.info?id=usb:0430-00a2) | Sun Microsystems     | Type 7 Keyboard                               |
-| [0430:a4a2](https://bsd-hardware.info?id=usb:0430-a4a2) | Sun Microsystems     | Ethernet (RNDIS and CDC ethernet)             |
+| [0430:0005](https://bsd-hardware.info?id=usb:0430-0005) | Fujitsu Component... | Type 6 Keyboard                               |
+| [0430:00a2](https://bsd-hardware.info?id=usb:0430-00a2) | Fujitsu Component... | Type 7 Keyboard                               |
+| [0430:a4a2](https://bsd-hardware.info?id=usb:0430-a4a2) | Fujitsu Component... | Ethernet (RNDIS and CDC ethernet)             |
 | [0451:1446](https://bsd-hardware.info?id=usb:0451-1446) | Texas Instruments    | TUSB2040/2070 Hub                             |
 | [0451:3410](https://bsd-hardware.info?id=usb:0451-3410) | Texas Instruments    | TUSB3410 Microcontroller                      |
 | [0451:f430](https://bsd-hardware.info?id=usb:0451-f430) | Texas Instruments    | MSP-FET430UIF JTAG Tool                       |
@@ -569,6 +569,7 @@ This table is compiled from the [list of supported devices in OpenBSD](https://g
 | [05c6:6000](https://bsd-hardware.info?id=usb:05c6-6000) | Qualcomm             | Siemens SG75                                  |
 | [05c6:6613](https://bsd-hardware.info?id=usb:05c6-6613) | Qualcomm             | Onda H600/N501HS ZTE MF330                    |
 | [05c6:9000](https://bsd-hardware.info?id=usb:05c6-9000) | Qualcomm             | SIMCom SIM5218 modem                          |
+| [05c6:f000](https://bsd-hardware.info?id=usb:05c6-f000) | Qualcomm             | TA-1004 [Nokia 8]                             |
 | [05c7:2011](https://bsd-hardware.info?id=usb:05c7-2011) | Qtronix              | SCorpius Keyboard                             |
 | [05ca:1835](https://bsd-hardware.info?id=usb:05ca-1835) | Ricoh                | Visual Communication Camera VGP-VCC5 [R5U870] |
 | [05ca:1836](https://bsd-hardware.info?id=usb:05ca-1836) | Ricoh                | Visual Communication Camera VGP-VCC4 [R5U870] |
@@ -1157,9 +1158,9 @@ This table is compiled from the [list of supported devices in OpenBSD](https://g
 | [0e8d:00a5](https://bsd-hardware.info?id=usb:0e8d-00a5) | MediaTek             | GSM modem [Medion Surfstick Model:S4222]      |
 | [0ea0:6803](https://bsd-hardware.info?id=usb:0ea0-6803) | Ours Technology      | OTI-6803 Flash Disk                           |
 | [0ea0:6858](https://bsd-hardware.info?id=usb:0ea0-6858) | Ours Technology      | OTi-6858 serial adapter                       |
-| [0eb0:9020](https://bsd-hardware.info?id=usb:0eb0-9020) | NovaTech             | NovaTech NV-902W                              |
-| [0eb0:9021](https://bsd-hardware.info?id=usb:0eb0-9021) | NovaTech             | RT2573                                        |
-| [0eb0:9071](https://bsd-hardware.info?id=usb:0eb0-9071) | NovaTech             | Wireless USB Card                             |
+| [0eb0:9020](https://bsd-hardware.info?id=usb:0eb0-9020) | Novatech             | NovaTech NV-902W                              |
+| [0eb0:9021](https://bsd-hardware.info?id=usb:0eb0-9021) | Novatech             | RT2573                                        |
+| [0eb0:9071](https://bsd-hardware.info?id=usb:0eb0-9071) | Novatech             | Wireless USB Card                             |
 | [0eef:0001](https://bsd-hardware.info?id=usb:0eef-0001) | D-WAV Scientific     | Titan6001 Surface Acoustic Wave Touchscree... |
 | [0eef:0002](https://bsd-hardware.info?id=usb:0eef-0002) | D-WAV Scientific     | Touchscreen Controller(Professional)          |
 | [0f3d:0112](https://bsd-hardware.info?id=usb:0f3d-0112) | Airprime, Incorpo... | CDMA 1xEVDO PC Card, PC 5220                  |
@@ -1437,7 +1438,7 @@ This table is compiled from the [list of supported devices in OpenBSD](https://g
 | [15a9:0006](https://bsd-hardware.info?id=usb:15a9-0006) | Gemtek               | Wireless 11n USB Adapter                      |
 | [15a9:0010](https://bsd-hardware.info?id=usb:15a9-0010) | Gemtek               | 802.11n USB Wireless Card                     |
 | [15a9:0012](https://bsd-hardware.info?id=usb:15a9-0012) | Gemtek               | WUBR-208N 802.11abgn Wireless Adapter [Ral... |
-| [15c5:0008](https://bsd-hardware.info?id=usb:15c5-0008) | Advance Multimedi... | WL532U 802.11g Adapter                        |
+| [15c5:0008](https://bsd-hardware.info?id=usb:15c5-0008) | Pressure Profile ... | Advance Multimedia Internet Technology Inc... |
 | [15e8:9100](https://bsd-hardware.info?id=usb:15e8-9100) | SohoWare             | NUB100 Ethernet [pegasus]                     |
 | [15e8:9110](https://bsd-hardware.info?id=usb:15e8-9110) | SohoWare             | 10/100 USB Ethernet                           |
 | [1606:0002](https://bsd-hardware.info?id=usb:1606-0002) | UMAX                 | Astra 1236U Scanner                           |
